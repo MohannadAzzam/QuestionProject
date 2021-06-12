@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+    <style name="button" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:text">@string/btn_next</item>
+        <item name="android:textColor">@color/darkPurple</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:background">@drawable/shape_btn_next</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:height">10dp</item>
+    </style>
+</resources>
